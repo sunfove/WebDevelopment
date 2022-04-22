@@ -1,0 +1,14 @@
+/*页面基本属性*/
+body {
+    font-size: 12px;
+    color: blueviolet;
+}
+/*段落基本属性*/
+p {
+    background: aquamarine;
+}
+h2 {
+    font-size: 20px;
+    color: brown;
+
+}

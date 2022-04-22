@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106a50e2-3535-49a4-92db-f96dc96926d6" name="Changes" comment="" />
+    <list default="true" id="106a50e2-3535-49a4-92db-f96dc96926d6" name="Changes" comment="Web开发学习记录——4月21日">
+      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS基本使用.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS基本使用_内嵌式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS基本使用_导入样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS基本使用_行内样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS基本使用_链接式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/四月学习记录.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/四月学习记录.html" beforeDir="false" afterPath="$PROJECT_DIR$/四月学习记录.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,8 +35,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="705614c6-e541-4ed2-8454-6554b6b6f429" />
+        <option name="url" value="git@github.com:sunfove/Webdevelopment.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2876XOnvQNGfszkkocZtnk5OxF0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,10 +56,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022年4月23日" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习记录\Web开发\2022年4月23日" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\学习记录\Web开发" />
       <recent name="F:\学习记录\Web开发\2022年4月21日" />
@@ -53,8 +77,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650555317614</updated>
-      <workItem from="1650555319139" duration="3953000" />
+      <workItem from="1650555319139" duration="4691000" />
+      <workItem from="1650643787360" duration="121000" />
+      <workItem from="1650643967094" duration="4942000" />
     </task>
+    <task id="LOCAL-00001" summary="Web开发学习记录——4月21日">
+      <created>1650559378263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650559378263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +97,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="6b440217-6158-4199-a121-afa41a8ae08a">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -70,5 +115,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Web开发学习记录——4月21日" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web开发学习记录——4月21日" />
   </component>
 </project>
