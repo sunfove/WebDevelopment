@@ -1,0 +1,134 @@
+/*公共属性*/
+html {
+    min-width: 776px;
+}
+/*页面属性*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: left;
+    background: cornsilk;
+    font-family: 宋体, serif;
+}
+/*超连接属性*/
+a {
+    margin: 0;
+    text-decoration: none;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: coral;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+/*预定义格式属性*/
+pre {
+    text-indent: 0;
+    background: #DDDDDD;
+    color: blue;
+}
+/*顶部布局*/
+#top{
+    width: 776px;
+    margin: auto;
+    padding: 0;
+    height: 12px;
+    background: oldlace repeat-x left top;
+    overflow: hidden;
+}
+#top1 {
+    width: 776px;
+    margin: auto;
+    height: 300px;
+}
+/*主体布局*/
+#main {
+    width: 776px;
+    margin: auto;
+    padding: 1.2em 0;
+    background: azure repeat left top;
+    text-align: left;
+}
+#content {
+    width: 710px;
+    margin: auto;
+    padding: 1em;
+    background: #fff;
+}
+#title {
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 24px;
+    color: #00A06B;
+    text-align: left;
+    border-bottom: solid #9EA3C1 2px;
+}
+.sub {
+    color: #00A06B;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 1em 2em 0;
+    background: lightyellow no-repeat 1em 1%;
+}
+.content {
+    text-indent: 2em;  /*缩进*/
+    font-size: 13px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em 5px;
+}
+#gotop {
+    font-weight: bold;
+    width: 100%;
+    height: 2em;
+    font-size: 12px;
+    text-align: right;
+}
+/*底部布局*/
+/*页脚装饰*/
+#footer {
+    clear:both;
+    width: 776px;
+    margin: auto;
+    background: antiquewhite repeat left top;
+    text-align: center;
+}
+/*版权信息*/
+#copyright {
+    width: 776px;
+    margin: auto;
+    padding: 5px 0 0 0 ;
+    background: #ffffff;
+    text-align: center;
+    height: 60px;
+    line-height: 13px;
+    font-size: 12px;
+    color: #667EBE;
+}
+/*圆角特效*/
+/*没有成功，可能是图片问题*/
+/*.box {*/
+/*    background: #00A06B repeat;*/
+/*}*/
+/*.tl {*/
+/*    background: #9EA3C1 no-repeat left top;*/
+/*}*/
+/*.tr {*/
+/*    background: coral no-repeat top right;*/
+/*}*/
+/*.bl {*/
+/*    background: #9EA3C1 no-repeat bottom left;*/
+/*}*/
+/*.br {*/
+/*    background: coral no-repeat bottom right;*/
+/*}*/
