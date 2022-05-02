@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五月web开发学习记录</title>
+<style>
+    table {
+        width: 800px;
+        text-align: center;
+        border: 2px dashed  coral;
+    }
+    th {
+        color: red;
+        border: 1px dashed cadetblue;
+    }
+    td {
+        color: black;
+        text-align: center;
+        border: 1px dashed cadetblue;
+    }
+    p {
+        color: blueviolet;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<h2>
+    Web开发学习记录——2022年5月
+</h2>
+<h4>CSS样式优先级</h4>
+<table>
+    <tr>
+        <th>选择器类型</th>
+        <th>选择器举例</th>
+        <th>优先级（数值越高优先级越高）</th>
+    </tr>
+    <tr>
+        <td>1. 标签选择器</td>
+        <td>body、p、ul、li等</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2. 类选择器</td>
+        <td>class = ""</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>3. ID择器</td>
+        <td>id = ""，对应style用#开头</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>4. 全局选择器</td>
+        <td>*</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5. 组合选择器</td>
+        <td>如：.head .head_logo</td>
+        <td>各选择器优先级加权值</td>
+    </tr>
+    <tr>
+        <td>6. 继承选择器</td>
+        <td>如：p p,注意两选择器用空格键分开</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7. 伪类选择器</td>
+        <td>如：就是链接样式,a元素的伪类，4种不同的状态：link、visited、active、hover</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8. 字符串匹配的属性选择符</td>
+        <td>^ $ *三种，分别对应开始、结尾、包含</td>
+        <td></td>
+    </tr>
+</table>
+<p>在相同的特殊性下，CSS遵循就近原则。!important具有最高优先级</p>
+</body>
+</html>
