@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106a50e2-3535-49a4-92db-f96dc96926d6" name="Changes" comment="Web开发学习记录——4月23日&#10;CSS基本使用">
-      <change afterPath="$PROJECT_DIR$/2022年4月23日/CSS注释.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022年5月2日/CSS样式优先级.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022年5月2日/CSS样式优先级.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022年4月23日" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CODE\WebDevelopment" />
       <recent name="F:\学习记录\Web开发\2022年4月23日" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,6 +77,8 @@
       <workItem from="1650643967094" duration="5346000" />
       <workItem from="1650721919599" duration="1231000" />
       <workItem from="1650727741564" duration="67000" />
+      <workItem from="1651457103108" duration="38000" />
+      <workItem from="1651457171298" duration="3821000" />
     </task>
     <task id="LOCAL-00001" summary="Web开发学习记录——4月21日">
       <created>1650559378263</created>
