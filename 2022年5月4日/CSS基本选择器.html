@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS基本选择器、组合选择器</title>
+</head>
+<style>
+    * {
+        color: #00A06B;
+    }
+    .font18px {
+    font-size: 18px;
+  }
+  .blue {
+    color: blue;
+  }
+  p.italic {
+    font-style: italic;
+  }
+  div#bold {
+      font-weight: bold;
+  }
+  div p {
+      color: #e22b71;
+  }
+  span {
+      font-size: 24px;
+  }
+  div span {
+      font-size: 30px;
+      color: #3366FF;
+  }
+  div span {
+      font-size: 30px;
+      color: #3366FF;
+  }
+  div > span {
+      font-size: 30px;
+      color: #53b737;
+  }
+</style>
+<body>
+<p class="font18px">阿拉伯的劳伦斯</p>
+<p class="blue">阿拉伯的劳伦斯</p>
+<p class="blue font18px italic">阿拉伯的劳伦斯</p>
+<div id="bold">阿拉伯的劳伦斯</div>
+<span>ABC</span>
+<div>
+    <span><span>ABC</span></span>
+    <span>ABC</span>
+</div>
+<div>
+    <p>沙丘</p>
+</div>
+</body>
+</html>
