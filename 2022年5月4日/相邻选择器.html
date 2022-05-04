@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相邻选择器</title>
+    <style>
+        p+h3 {   /* p与和h3为兄弟，控制的为h3的格式*/
+            font-weight: bold;
+            font-size: 30px;
+            color: #9e1c54;
+        }
+        p~h3 {
+            font-weight: bold;
+            font-size: 30px;
+            color: #41ad83;
+        }
+    </style>
+</head>
+<body>
+<p>test3</p>
+<h3>testest1</h3>
+</body>
+</html>
