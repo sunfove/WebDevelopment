@@ -28,7 +28,7 @@
 <h2>
     Web开发学习记录——2022年5月
 </h2>
-<h4>CSS样式优先级</h4>
+<h3>· 2022年5月2日:CSS样式优先级</h3>
 <table>
     <tr>
         <th>选择器类型</th>
@@ -77,5 +77,59 @@
     </tr>
 </table>
 <p>在相同的特殊性下，CSS遵循就近原则。!important具有最高优先级</p>
+
+<h3>· 2022年5月4日:基本选择器与组合选择器</h3>
+<h4>基本选择器</h4>
+<table>
+    <tr>
+        <th>选择器类型</th>
+        <th>举例</th>
+    </tr>
+    <tr>
+        <td>1. 标签选择器</td>
+        <td>p, div, h1, a等</td>
+    </tr>
+    <tr>
+        <td>2. 类选择器</td>
+        <td>自定义类名称</td>
+    </tr>
+    <tr>
+        <td>3. ID选择器</td>
+        <td>自定义ID名称</td>
+    </tr>
+    <tr>
+        <td>4. 通配选择器</td>
+        <td>*</td>
+    </tr>
+</table>
+<h4>组合选择器</h4>
+<table>
+    <tr>
+        <th>选择器类型</th>
+        <th>举例</th>
+    </tr>
+    <tr>
+        <td>1. 包含选择器</td>
+        <td>div span，div包含span</td>
+    </tr>
+    <tr>
+        <td>2. 子选择器</td>
+        <td>div > span</td>
+    </tr>
+    <tr>
+        <td>3. 相邻选择器</td>
+        <td>h5 + h1</td>
+    </tr>
+    <tr>
+        <td>4. 兄弟选择器</td>
+        <td>h5 ~ h1</td>
+    </tr>
+    <tr>
+        <td>5. 分组选择器</td>
+        <td>h1,h2,h3,h4</td>
+    </tr>
+</table>
+<p>包含选择器与子选择器差别：作用于元素的第一代后代，空格作用于元素的所有后代</p>
+
 </body>
 </html>
