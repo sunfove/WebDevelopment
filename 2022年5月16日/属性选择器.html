@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        .pic_box {border: solid 6px #bbb; position:relative}
+        .nav {background: #53b737; border: 1px solid #ccc;}
+        .nav a[id] {background: #3366FF; color: red;font-weight: bold}
+        .nav a[lang][target] {background: #3366FF; color: gray;font-weight: bold}
+        .nav a[lang] {background: #3366FF; color: blue;font-weight: bold}
+        .nav p[id] {background: yellow}
+    </style>
+</head>
+<body>
+<div class="pic_box">
+    <img src="S.png" />
+    <div class="nav">
+        <p id="summary"> E[attr]: 只使用了属性名，但没有确定任何属性值</p>
+        <a href="#1" class="links item first" title="w3cplus" target="_blank" id="first">1</a>
+        <a href="#2" class="links active item" title="this is a link" target="_blank" lang="zh">2</a>
+        <a href="#3" class="links active item" title="this is a link"  lang="zh">3</a>
+    </div>
+</div>
+</body>
+</html>
